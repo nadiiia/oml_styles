@@ -1,467 +1,564 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis simplifyDrawingHints="1" readOnly="0" maxScale="100000" minScale="1e+8" hasScaleBasedVisibilityFlag="0" labelsEnabled="1" version="3.2.0-Bonn" simplifyAlgorithm="0" simplifyLocal="1" simplifyMaxScale="1" simplifyDrawingTol="1">
-  <renderer-v2 enableorderby="0" type="RuleRenderer" symbollevels="0" forceraster="0">
+<qgis version="3.2.0-Bonn" simplifyLocal="1" simplifyAlgorithm="0" minScale="1e+8" simplifyDrawingTol="1" labelsEnabled="1" simplifyMaxScale="1" maxScale="100000" readOnly="0" hasScaleBasedVisibilityFlag="0" simplifyDrawingHints="1">
+  <renderer-v2 symbollevels="0" type="RuleRenderer" forceraster="0" enableorderby="0">
     <rules key="{7cda191b-3b03-456b-8e49-148824af917c}">
-      <rule scalemindenom="28350" label="Motorway" key="{7182b1a8-594e-41b6-a683-611000937048}" filter="&quot;classifica&quot; = 'Motorway'" scalemaxdenom="100000000" symbol="0"/>
-      <rule scalemindenom="28350" label="Motorway, Collapsed Dual Carriageway" key="{56322ed3-e168-4136-a8fc-2f952a229572}" filter="&quot;classifica&quot; = 'Motorway, Collapsed Dual Carriageway'" scalemaxdenom="100000000" symbol="1"/>
-      <rule scalemindenom="28350" label="Primary Road" key="{fd3513cd-70f0-4785-9b6a-28ce441c923e}" filter="&quot;classifica&quot; = 'Primary Road'" scalemaxdenom="100000000" symbol="2"/>
-      <rule scalemindenom="28350" label="Primary Road, Collapsed Dual Carriageway" key="{2ff77812-88a4-44b5-bbb0-8bba3f45bba9}" filter="&quot;classifica&quot; = 'Primary Road, Collapsed Dual Carriageway'" scalemaxdenom="100000000" symbol="3"/>
-      <rule scalemindenom="28350" label="A Road" key="{d77ba3f7-0c7b-48bc-bbba-f5381321ebfa}" filter="&quot;classifica&quot; = 'A Road'" scalemaxdenom="1400000" symbol="4"/>
-      <rule scalemindenom="28350" label="A Road, Collapsed Dual Carriageway" key="{82eb4fd1-fc21-41e6-8fa1-249be198c883}" filter="&quot;classifica&quot; = 'A Road, Collapsed Dual Carriageway'" scalemaxdenom="1400000" symbol="5"/>
-      <rule scalemindenom="28350" label="B Road" key="{b9850cd0-75b7-4dbd-9957-3bc5235bbe63}" filter="&quot;classifica&quot; = 'B Road'" scalemaxdenom="500000" symbol="6"/>
-      <rule scalemindenom="28350" label="B Road, Collapsed Dual Carriageway" key="{80a6ae57-a9cd-450f-8a01-28af6643283f}" filter="&quot;classifica&quot; = 'B Road, Collapsed Dual Carriageway'" scalemaxdenom="500000" symbol="7"/>
-      <rule scalemindenom="28350" label="Minor Road" key="{d60f6203-f6d0-49a4-9db6-f559b0bdd73b}" filter="&quot;classifica&quot; = 'Minor Road'" scalemaxdenom="100000" symbol="8"/>
-      <rule scalemindenom="28350" label="Minor Road, Collapsed Dual Carriageway" key="{1e1068a8-23cf-4e65-ba37-1227f4a3aff4}" filter="&quot;classifica&quot; = 'Minor Road, Collapsed Dual Carriageway'" scalemaxdenom="100000" symbol="9"/>
-      <rule scalemindenom="28350" label="Local Road" key="{60984814-2de2-4f9d-90c1-300197860fcf}" filter="&quot;classifica&quot; = 'Local Road'" scalemaxdenom="60000" symbol="10"/>
-      <rule scalemindenom="28350" label="Local Access Road" key="{aff03302-11a0-4479-9265-2de71efb00c9}" filter="&quot;classifica&quot; = 'Local Access Road'" scalemaxdenom="60000" symbol="11"/>
-      <rule scalemindenom="28350" label="Shared Use Carriageway" key="{ec720999-c795-48d0-bf6f-b3714ff85858}" filter="&quot;classifica&quot; = 'Shared Use Carriageway'" scalemaxdenom="60000" symbol="12"/>
-      <rule scalemindenom="28350" label="Restricted Local Access Road" key="{79b6549f-819d-42ec-9b90-9b257fa31645}" filter="&quot;classifica&quot; = 'Restricted Local Access Road'" scalemaxdenom="60000" symbol="13"/>
-      <rule scalemindenom="28350" label="Guided Busway Carriageway" key="{e8c509a6-6ca3-4572-b246-2f12c750fb7a}" filter="&quot;classifica&quot; = 'Guided Busway Carriageway'" scalemaxdenom="60000" symbol="14"/>
+      <rule label="Motorway" symbol="0" scalemaxdenom="100000000" filter="&quot;classifica&quot; = 'Motorway'" key="{7182b1a8-594e-41b6-a683-611000937048}" scalemindenom="28350"/>
+      <rule label="Motorway, Collapsed Dual Carriageway" symbol="1" scalemaxdenom="100000000" filter="&quot;classifica&quot; = 'Motorway, Collapsed Dual Carriageway'" key="{56322ed3-e168-4136-a8fc-2f952a229572}" scalemindenom="28350"/>
+      <rule label="Primary Road" symbol="2" scalemaxdenom="100000000" filter="&quot;classifica&quot; = 'Primary Road'" key="{fd3513cd-70f0-4785-9b6a-28ce441c923e}" scalemindenom="28350"/>
+      <rule label="Primary Road, Collapsed Dual Carriageway" symbol="3" scalemaxdenom="100000000" filter="&quot;classifica&quot; = 'Primary Road, Collapsed Dual Carriageway'" key="{2ff77812-88a4-44b5-bbb0-8bba3f45bba9}" scalemindenom="28350"/>
+      <rule label="A Road" symbol="4" filter="&quot;classifica&quot; = 'A Road'" key="{d77ba3f7-0c7b-48bc-bbba-f5381321ebfa}"/>
+      <rule label="A Road, Collapsed Dual Carriageway" symbol="5" scalemaxdenom="1400000" filter="&quot;classifica&quot; = 'A Road, Collapsed Dual Carriageway'" key="{82eb4fd1-fc21-41e6-8fa1-249be198c883}" scalemindenom="28350"/>
+      <rule label="B Road" symbol="6" scalemaxdenom="500000" filter="&quot;classifica&quot; = 'B Road'" key="{b9850cd0-75b7-4dbd-9957-3bc5235bbe63}" scalemindenom="28350"/>
+      <rule label="B Road, Collapsed Dual Carriageway" symbol="7" scalemaxdenom="500000" filter="&quot;classifica&quot; = 'B Road, Collapsed Dual Carriageway'" key="{80a6ae57-a9cd-450f-8a01-28af6643283f}" scalemindenom="28350"/>
+      <rule label="Minor Road" symbol="8" scalemaxdenom="100000" filter="&quot;classifica&quot; = 'Minor Road'" key="{d60f6203-f6d0-49a4-9db6-f559b0bdd73b}" scalemindenom="28350"/>
+      <rule label="Minor Road, Collapsed Dual Carriageway" symbol="9" scalemaxdenom="100000" filter="&quot;classifica&quot; = 'Minor Road, Collapsed Dual Carriageway'" key="{1e1068a8-23cf-4e65-ba37-1227f4a3aff4}" scalemindenom="28350"/>
+      <rule label="Local Road" symbol="10" scalemaxdenom="60000" filter="&quot;classifica&quot; = 'Local Road'" key="{60984814-2de2-4f9d-90c1-300197860fcf}" scalemindenom="28350"/>
+      <rule label="Local Access Road" symbol="11" scalemaxdenom="60000" filter="&quot;classifica&quot; = 'Local Access Road'" key="{aff03302-11a0-4479-9265-2de71efb00c9}" scalemindenom="28350"/>
+      <rule label="Shared Use Carriageway" symbol="12" scalemaxdenom="60000" filter="&quot;classifica&quot; = 'Shared Use Carriageway'" key="{ec720999-c795-48d0-bf6f-b3714ff85858}" scalemindenom="28350"/>
+      <rule label="Restricted Local Access Road" symbol="13" scalemaxdenom="60000" filter="&quot;classifica&quot; = 'Restricted Local Access Road'" key="{79b6549f-819d-42ec-9b90-9b257fa31645}" scalemindenom="28350"/>
+      <rule label="Guided Busway Carriageway" symbol="14" scalemaxdenom="60000" filter="&quot;classifica&quot; = 'Guided Busway Carriageway'" key="{e8c509a6-6ca3-4572-b246-2f12c750fb7a}" scalemindenom="28350"/>
     </rules>
     <symbols>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="0">
-        <layer pass="14" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="0" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="14" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="4" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="1">
-        <layer pass="13" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="1" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="13" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="4" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="10">
-        <layer pass="4" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="15"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="10" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="4" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="MapUnit" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="15" k="line_width"/>
+          <prop v="MapUnit" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MapUnit" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="11">
-        <layer pass="3" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="15"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="11" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="3" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="MapUnit" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="15" k="line_width"/>
+          <prop v="MapUnit" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MapUnit" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="12">
-        <layer pass="2" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="13"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="12" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="2" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="MapUnit" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="13" k="line_width"/>
+          <prop v="MapUnit" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MapUnit" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="13">
-        <layer pass="1" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="11"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="13" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="1" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="MapUnit" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="11" k="line_width"/>
+          <prop v="MapUnit" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MapUnit" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="14">
-        <layer pass="0" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="13"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="14" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="0" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="MapUnit" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="13" k="line_width"/>
+          <prop v="MapUnit" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="MapUnit" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="2">
-        <layer pass="12" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="2" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="12" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="4" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="3">
-        <layer pass="11" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="3" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="11" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="4" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="4">
-        <layer pass="10" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="4" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="10" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="4" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="5">
-        <layer pass="9" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="5" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="9" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="4" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="6">
-        <layer pass="8" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="6" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="8" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="4" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="7">
-        <layer pass="7" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="7" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="7" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="4" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="8">
-        <layer pass="6" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="8" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="6" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="3" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
-      <symbol type="line" alpha="1" clip_to_extent="1" name="9">
-        <layer pass="5" class="SimpleLine" enabled="1" locked="0">
-          <prop k="capstyle" v="round"/>
-          <prop k="customdash" v="5;2"/>
-          <prop k="customdash_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="customdash_unit" v="MapUnit"/>
-          <prop k="draw_inside_polygon" v="0"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="line_color" v="80,80,80,255"/>
-          <prop k="line_style" v="solid"/>
-          <prop k="line_width" v="17"/>
-          <prop k="line_width_unit" v="MapUnit"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"/>
-          <prop k="offset_unit" v="MapUnit"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width_map_unit_scale" v="3x:0,0,0,0,0,0"/>
+      <symbol type="line" name="9" clip_to_extent="1" alpha="1">
+        <layer class="SimpleLine" locked="0" pass="5" enabled="1">
+          <prop v="round" k="capstyle"/>
+          <prop v="5;2" k="customdash"/>
+          <prop v="3x:0,0,0,0,0,0" k="customdash_map_unit_scale"/>
+          <prop v="Point" k="customdash_unit"/>
+          <prop v="0" k="draw_inside_polygon"/>
+          <prop v="round" k="joinstyle"/>
+          <prop v="80,80,80,255" k="line_color"/>
+          <prop v="solid" k="line_style"/>
+          <prop v="3" k="line_width"/>
+          <prop v="Point" k="line_width_unit"/>
+          <prop v="0" k="offset"/>
+          <prop v="3x:0,0,0,0,0,0" k="offset_map_unit_scale"/>
+          <prop v="Point" k="offset_unit"/>
+          <prop v="0" k="use_custom_dash"/>
+          <prop v="3x:0,0,0,0,0,0" k="width_map_unit_scale"/>
           <data_defined_properties>
             <Option type="Map">
-              <Option type="QString" value="" name="name"/>
+              <Option type="QString" name="name" value=""/>
               <Option name="properties"/>
-              <Option type="QString" value="collection" name="type"/>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
           </data_defined_properties>
         </layer>
       </symbol>
     </symbols>
   </renderer-v2>
-  <labeling type="simple">
-    <settings>
-      <text-style fontSizeUnit="MapUnit" fontSize="15" previewBkgrdColor="#ffffff" fontItalic="0" textOpacity="1" multilineHeight="1" namedStyle="Bold" fontWordSpacing="0" blendMode="0" useSubstitutions="0" fontUnderline="0" fontStrikeout="0" fieldName="distname" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontFamily="Arial" textColor="0,0,0,255" fontLetterSpacing="0" fontWeight="75" isExpression="0" fontCapitals="1">
-        <text-buffer bufferJoinStyle="64" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MapUnit" bufferNoFill="0" bufferOpacity="1" bufferBlendMode="0" bufferSize="5" bufferDraw="1" bufferColor="255,255,255,255"/>
-        <background shapeRadiiUnit="MM" shapeBlendMode="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeDraw="0" shapeBorderWidth="0" shapeRadiiY="0" shapeFillColor="255,255,255,255" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeSizeUnit="MM" shapeOffsetY="0" shapeOffsetX="0" shapeBorderColor="128,128,128,255" shapeOpacity="1" shapeSizeY="0" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSVGFile="" shapeBorderWidthUnit="MM" shapeSizeType="0" shapeRadiiX="0" shapeType="0" shapeRotation="0" shapeJoinStyle="64" shapeRotationType="0" shapeSizeX="0"/>
-        <shadow shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowUnder="0" shadowRadius="1.5" shadowOffsetUnit="MM" shadowOffsetGlobal="1" shadowBlendMode="6" shadowDraw="0" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowOpacity="0.7" shadowOffsetAngle="135" shadowOffsetDist="1" shadowRadiusUnit="MM" shadowScale="100" shadowColor="0,0,0,255"/>
-        <substitutions/>
-      </text-style>
-      <text-format reverseDirectionSymbol="0" plussign="0" formatNumbers="0" wrapChar="" rightDirectionSymbol=">" addDirectionSymbol="0" leftDirectionSymbol="&lt;" placeDirectionSymbol="0" decimals="3" multilineAlign="0"/>
-      <placement preserveRotation="1" yOffset="0" repeatDistanceUnits="MM" placementFlags="9" centroidInside="0" offsetUnits="MapUnit" distMapUnitScale="3x:0,0,0,0,0,0" fitInPolygonOnly="0" placement="3" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleOut="-20" maxCurvedCharAngleIn="20" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0" dist="0" quadOffset="4" repeatDistance="0" rotationAngle="0" xOffset="0" distUnits="MM" centroidWhole="0" priority="8" offsetType="0"/>
-      <rendering fontMaxPixelSize="10000" displayAll="0" upsidedownLabels="0" zIndex="0" obstacleFactor="1" obstacleType="0" fontMinPixelSize="3" maxNumLabels="2000" scaleMin="1" mergeLines="1" scaleVisibility="0" obstacle="0" drawLabels="1" labelPerPart="0" minFeatureSize="0" fontLimitPixelSize="0" scaleMax="10000000" limitNumLabels="0"/>
-      <dd_properties>
-        <Option type="Map">
-          <Option type="QString" value="" name="name"/>
-          <Option type="Map" name="properties">
-            <Option type="Map" name="Color">
-              <Option type="bool" value="true" name="active"/>
-              <Option type="QString" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  color_rgb( 212,28,64) WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  color_rgb( 214,133,34) WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  color_rgb( 0,159,184) WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  color_rgb( 0,166,41) END" name="expression"/>
-              <Option type="int" value="3" name="type"/>
+  <labeling type="rule-based">
+    <rules key="{8c52a306-6027-4d24-ab58-6a4f618fa7df}">
+      <rule description="motorways, primary" active="0" key="{261d933d-3e61-4c48-8969-c3b5812cecf2}">
+        <settings>
+          <text-style fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" namedStyle="Bold" fontUnderline="0" useSubstitutions="0" multilineHeight="1" fieldName="distname" previewBkgrdColor="#ffffff" textColor="0,0,0,255" textOpacity="1" fontSizeUnit="MapUnit" fontFamily="Arial" fontSize="15" fontItalic="0" fontCapitals="1" blendMode="0" isExpression="0" fontWordSpacing="0" fontWeight="75">
+            <text-buffer bufferBlendMode="0" bufferSize="5" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="64" bufferDraw="1" bufferSizeUnits="MapUnit" bufferNoFill="0" bufferColor="255,255,255,255" bufferOpacity="0.8740000000000001"/>
+            <background shapeSizeUnit="MM" shapeSizeType="0" shapeFillColor="255,255,255,255" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeJoinStyle="64" shapeOffsetUnit="MM" shapeDraw="0" shapeRadiiUnit="MM" shapeOffsetX="0" shapeRotation="0" shapeSizeY="0" shapeSVGFile="" shapeRotationType="0" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeOpacity="1" shapeBlendMode="0" shapeBorderWidthUnit="MM" shapeOffsetY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0"/>
+            <shadow shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadius="1.5" shadowOpacity="0.7" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowDraw="0" shadowOffsetDist="1" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowUnder="0"/>
+            <substitutions/>
+          </text-style>
+          <text-format multilineAlign="0" placeDirectionSymbol="0" addDirectionSymbol="0" plussign="0" decimals="3" wrapChar="" leftDirectionSymbol="&lt;" formatNumbers="0" rightDirectionSymbol=">" reverseDirectionSymbol="0"/>
+          <placement distMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="20" xOffset="0" centroidInside="0" fitInPolygonOnly="0" preserveRotation="1" dist="0" maxCurvedCharAngleOut="-20" distUnits="MM" placementFlags="9" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="3" repeatDistanceUnits="MM" priority="8" repeatDistance="0" rotationAngle="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" yOffset="0" offsetType="0" quadOffset="4" offsetUnits="MapUnit" centroidWhole="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0"/>
+          <rendering displayAll="0" obstacle="0" minFeatureSize="0" scaleVisibility="0" obstacleType="0" mergeLines="1" labelPerPart="0" fontLimitPixelSize="0" upsidedownLabels="0" scaleMin="1" obstacleFactor="1" limitNumLabels="0" maxNumLabels="2000" scaleMax="10000000" drawLabels="1" fontMinPixelSize="3" zIndex="0" fontMaxPixelSize="10000"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="Color">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  color_rgb( 212,28,64) WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  color_rgb( 214,133,34) WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  color_rgb( 0,159,184) WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  color_rgb( 0,166,41) END"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+                <Option type="Map" name="Size">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="case when &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  40&#xd;&#xa; WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  40 END"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+              </Option>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
-            <Option type="Map" name="Size">
-              <Option type="bool" value="true" name="active"/>
-              <Option type="QString" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  20 WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  20 WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  20 WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  20 END" name="expression"/>
-              <Option type="int" value="3" name="type"/>
+          </dd_properties>
+        </settings>
+      </rule>
+      <rule active="0" key="{019d6d6b-81fc-42a4-b1fa-5e93800535c8}">
+        <settings>
+          <text-style fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" namedStyle="Bold" fontUnderline="0" useSubstitutions="0" multilineHeight="1" fieldName="distname" previewBkgrdColor="#ffffff" textColor="0,0,0,255" textOpacity="1" fontSizeUnit="MapUnit" fontFamily="Arial" fontSize="15" fontItalic="0" fontCapitals="1" blendMode="0" isExpression="0" fontWordSpacing="0" fontWeight="75">
+            <text-buffer bufferBlendMode="0" bufferSize="5" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="64" bufferDraw="1" bufferSizeUnits="MapUnit" bufferNoFill="0" bufferColor="255,255,255,255" bufferOpacity="1"/>
+            <background shapeSizeUnit="MM" shapeSizeType="0" shapeFillColor="255,255,255,255" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeJoinStyle="64" shapeOffsetUnit="MM" shapeDraw="0" shapeRadiiUnit="MM" shapeOffsetX="0" shapeRotation="0" shapeSizeY="0" shapeSVGFile="" shapeRotationType="0" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeOpacity="1" shapeBlendMode="0" shapeBorderWidthUnit="MM" shapeOffsetY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0"/>
+            <shadow shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadius="1.5" shadowOpacity="0.7" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowDraw="0" shadowOffsetDist="1" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowUnder="0"/>
+            <substitutions/>
+          </text-style>
+          <text-format multilineAlign="0" placeDirectionSymbol="0" addDirectionSymbol="0" plussign="0" decimals="3" wrapChar="" leftDirectionSymbol="&lt;" formatNumbers="0" rightDirectionSymbol=">" reverseDirectionSymbol="0"/>
+          <placement distMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="20" xOffset="0" centroidInside="0" fitInPolygonOnly="0" preserveRotation="1" dist="0" maxCurvedCharAngleOut="-20" distUnits="MM" placementFlags="9" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="3" repeatDistanceUnits="MM" priority="8" repeatDistance="0" rotationAngle="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" yOffset="0" offsetType="0" quadOffset="4" offsetUnits="MapUnit" centroidWhole="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0"/>
+          <rendering displayAll="0" obstacle="0" minFeatureSize="0" scaleVisibility="0" obstacleType="0" mergeLines="1" labelPerPart="0" fontLimitPixelSize="0" upsidedownLabels="0" scaleMin="1" obstacleFactor="1" limitNumLabels="0" maxNumLabels="2000" scaleMax="10000000" drawLabels="1" fontMinPixelSize="3" zIndex="0" fontMaxPixelSize="10000"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="Color">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  color_rgb( 212,28,64) WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  color_rgb( 214,133,34) WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  color_rgb( 0,159,184) WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  color_rgb( 0,166,41) END"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+                <Option type="Map" name="Size">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  20 WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  20 WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  20 WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  20 END"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+              </Option>
+              <Option type="QString" name="type" value="collection"/>
             </Option>
-          </Option>
-          <Option type="QString" value="collection" name="type"/>
-        </Option>
-      </dd_properties>
-    </settings>
+          </dd_properties>
+        </settings>
+      </rule>
+      <rule active="0" key="{5cf33968-2d51-45eb-9b62-8f27eeb00031}">
+        <settings>
+          <text-style fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" namedStyle="Bold" fontUnderline="0" useSubstitutions="0" multilineHeight="1" fieldName="distname" previewBkgrdColor="#ffffff" textColor="0,0,0,255" textOpacity="1" fontSizeUnit="MapUnit" fontFamily="Arial" fontSize="15" fontItalic="0" fontCapitals="1" blendMode="0" isExpression="0" fontWordSpacing="0" fontWeight="75">
+            <text-buffer bufferBlendMode="0" bufferSize="5" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="64" bufferDraw="1" bufferSizeUnits="MapUnit" bufferNoFill="0" bufferColor="255,255,255,255" bufferOpacity="1"/>
+            <background shapeSizeUnit="MM" shapeSizeType="0" shapeFillColor="255,255,255,255" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeJoinStyle="64" shapeOffsetUnit="MM" shapeDraw="0" shapeRadiiUnit="MM" shapeOffsetX="0" shapeRotation="0" shapeSizeY="0" shapeSVGFile="" shapeRotationType="0" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeOpacity="1" shapeBlendMode="0" shapeBorderWidthUnit="MM" shapeOffsetY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0"/>
+            <shadow shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadius="1.5" shadowOpacity="0.7" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowDraw="0" shadowOffsetDist="1" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowUnder="0"/>
+            <substitutions/>
+          </text-style>
+          <text-format multilineAlign="0" placeDirectionSymbol="0" addDirectionSymbol="0" plussign="0" decimals="3" wrapChar="" leftDirectionSymbol="&lt;" formatNumbers="0" rightDirectionSymbol=">" reverseDirectionSymbol="0"/>
+          <placement distMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="20" xOffset="0" centroidInside="0" fitInPolygonOnly="0" preserveRotation="1" dist="0" maxCurvedCharAngleOut="-20" distUnits="MM" placementFlags="9" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="3" repeatDistanceUnits="MM" priority="8" repeatDistance="0" rotationAngle="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" yOffset="0" offsetType="0" quadOffset="4" offsetUnits="MapUnit" centroidWhole="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0"/>
+          <rendering displayAll="0" obstacle="0" minFeatureSize="0" scaleVisibility="0" obstacleType="0" mergeLines="1" labelPerPart="0" fontLimitPixelSize="0" upsidedownLabels="0" scaleMin="1" obstacleFactor="1" limitNumLabels="0" maxNumLabels="2000" scaleMax="10000000" drawLabels="1" fontMinPixelSize="3" zIndex="0" fontMaxPixelSize="10000"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="Color">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  color_rgb( 212,28,64) WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  color_rgb( 214,133,34) WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  color_rgb( 0,159,184) WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  color_rgb( 0,166,41) END"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+                <Option type="Map" name="Size">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  20 WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  20 WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  20 WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  20 END"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+              </Option>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dd_properties>
+        </settings>
+      </rule>
+      <rule active="0" key="{109e7d7d-ae29-458c-a250-46a0ab20b46d}">
+        <settings>
+          <text-style fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" namedStyle="Bold" fontUnderline="0" useSubstitutions="0" multilineHeight="1" fieldName="distname" previewBkgrdColor="#ffffff" textColor="0,0,0,255" textOpacity="1" fontSizeUnit="MapUnit" fontFamily="Arial" fontSize="15" fontItalic="0" fontCapitals="1" blendMode="0" isExpression="0" fontWordSpacing="0" fontWeight="75">
+            <text-buffer bufferBlendMode="0" bufferSize="5" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="64" bufferDraw="1" bufferSizeUnits="MapUnit" bufferNoFill="0" bufferColor="255,255,255,255" bufferOpacity="1"/>
+            <background shapeSizeUnit="MM" shapeSizeType="0" shapeFillColor="255,255,255,255" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeJoinStyle="64" shapeOffsetUnit="MM" shapeDraw="0" shapeRadiiUnit="MM" shapeOffsetX="0" shapeRotation="0" shapeSizeY="0" shapeSVGFile="" shapeRotationType="0" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeOpacity="1" shapeBlendMode="0" shapeBorderWidthUnit="MM" shapeOffsetY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0"/>
+            <shadow shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadius="1.5" shadowOpacity="0.7" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowDraw="0" shadowOffsetDist="1" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowUnder="0"/>
+            <substitutions/>
+          </text-style>
+          <text-format multilineAlign="0" placeDirectionSymbol="0" addDirectionSymbol="0" plussign="0" decimals="3" wrapChar="" leftDirectionSymbol="&lt;" formatNumbers="0" rightDirectionSymbol=">" reverseDirectionSymbol="0"/>
+          <placement distMapUnitScale="3x:0,0,0,0,0,0" maxCurvedCharAngleIn="20" xOffset="0" centroidInside="0" fitInPolygonOnly="0" preserveRotation="1" dist="0" maxCurvedCharAngleOut="-20" distUnits="MM" placementFlags="9" labelOffsetMapUnitScale="3x:0,0,0,0,0,0" placement="3" repeatDistanceUnits="MM" priority="8" repeatDistance="0" rotationAngle="0" predefinedPositionOrder="TR,TL,BR,BL,R,L,TSR,BSR" yOffset="0" offsetType="0" quadOffset="4" offsetUnits="MapUnit" centroidWhole="0" repeatDistanceMapUnitScale="3x:0,0,0,0,0,0"/>
+          <rendering displayAll="0" obstacle="0" minFeatureSize="0" scaleVisibility="0" obstacleType="0" mergeLines="1" labelPerPart="0" fontLimitPixelSize="0" upsidedownLabels="0" scaleMin="1" obstacleFactor="1" limitNumLabels="0" maxNumLabels="2000" scaleMax="10000000" drawLabels="1" fontMinPixelSize="3" zIndex="0" fontMaxPixelSize="10000"/>
+          <dd_properties>
+            <Option type="Map">
+              <Option type="QString" name="name" value=""/>
+              <Option type="Map" name="properties">
+                <Option type="Map" name="Color">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  color_rgb( 212,28,64) WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  color_rgb( 214,133,34) WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  color_rgb( 0,159,184) WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  color_rgb( 0,166,41) END"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+                <Option type="Map" name="Size">
+                  <Option type="bool" name="active" value="true"/>
+                  <Option type="QString" name="expression" value="CASE WHEN   &quot;CLASSIFICA&quot;  =  'A Road' OR   &quot;CLASSIFICA&quot;  = 'A Road, Collapsed Dual Carriageway' THEN  20 WHEN  &quot;CLASSIFICA&quot;  = 'B Road' OR  &quot;CLASSIFICA&quot; =  'B Road, Collapsed Dual Carriageway'  THEN  20 WHEN  &quot;CLASSIFICA&quot;  =  'Motorway' OR  &quot;CLASSIFICA&quot;  =  'Motorway, Collapsed Dual Carriageway'  THEN  20 WHEN &quot;CLASSIFICA&quot;  =  'Primary Road' OR  &quot;CLASSIFICA&quot;  =  'Primary Road, Collapsed Dual Carriageway'  THEN  20 END"/>
+                  <Option type="int" name="type" value="3"/>
+                </Option>
+              </Option>
+              <Option type="QString" name="type" value="collection"/>
+            </Option>
+          </dd_properties>
+        </settings>
+      </rule>
+    </rules>
   </labeling>
   <customproperties>
-    <property key="embeddedWidgets/count" value="0"/>
+    <property value="0" key="embeddedWidgets/count"/>
     <property key="variableNames"/>
     <property key="variableValues"/>
   </customproperties>
   <blendMode>0</blendMode>
   <featureBlendMode>0</featureBlendMode>
   <layerOpacity>1</layerOpacity>
-  <SingleCategoryDiagramRenderer diagramType="Histogram" attributeLegend="1">
-    <DiagramCategory backgroundAlpha="255" scaleDependency="Area" maxScaleDenominator="1e+8" sizeType="MM" minimumSize="0" sizeScale="3x:0,0,0,0,0,0" lineSizeType="MM" width="15" labelPlacementMethod="XHeight" penWidth="0" opacity="1" height="15" enabled="0" scaleBasedVisibility="0" backgroundColor="#ffffff" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" minScaleDenominator="100000" diagramOrientation="Up" rotationOffset="270" penColor="#000000" penAlpha="255">
-      <fontProperties description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" style=""/>
-      <attribute color="#000000" label="" field=""/>
+  <SingleCategoryDiagramRenderer attributeLegend="1" diagramType="Histogram">
+    <DiagramCategory enabled="0" height="15" sizeScale="3x:0,0,0,0,0,0" diagramOrientation="Up" backgroundColor="#ffffff" scaleBasedVisibility="0" penColor="#000000" width="15" labelPlacementMethod="XHeight" minimumSize="0" backgroundAlpha="255" penAlpha="255" maxScaleDenominator="1e+8" scaleDependency="Area" lineSizeScale="3x:0,0,0,0,0,0" barWidth="5" penWidth="0" rotationOffset="270" lineSizeType="MM" minScaleDenominator="100000" sizeType="MM" opacity="1">
+      <fontProperties style="" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+      <attribute label="" field="" color="#000000"/>
     </DiagramCategory>
   </SingleCategoryDiagramRenderer>
-  <DiagramLayerSettings linePlacementFlags="18" showAll="1" priority="0" placement="2" obstacle="0" dist="0" zIndex="0">
+  <DiagramLayerSettings showAll="1" zIndex="0" obstacle="0" placement="2" linePlacementFlags="18" priority="0" dist="0">
     <properties>
       <Option type="Map">
-        <Option type="QString" value="" name="name"/>
+        <Option type="QString" name="name" value=""/>
         <Option name="properties"/>
-        <Option type="QString" value="collection" name="type"/>
+        <Option type="QString" name="type" value="collection"/>
       </Option>
     </properties>
   </DiagramLayerSettings>
@@ -546,39 +643,39 @@
     <default field="featcode" expression="" applyOnUpdate="0"/>
   </defaults>
   <constraints>
-    <constraint constraints="0" unique_strength="0" field="ogc_fid" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" unique_strength="0" field="id" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" unique_strength="0" field="distname" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" unique_strength="0" field="roadnumber" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" unique_strength="0" field="classifica" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" unique_strength="0" field="drawlevel" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" unique_strength="0" field="override" notnull_strength="0" exp_strength="0"/>
-    <constraint constraints="0" unique_strength="0" field="featcode" notnull_strength="0" exp_strength="0"/>
+    <constraint field="ogc_fid" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="id" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="distname" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="roadnumber" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="classifica" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="drawlevel" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="override" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
+    <constraint field="featcode" exp_strength="0" constraints="0" unique_strength="0" notnull_strength="0"/>
   </constraints>
   <constraintExpressions>
-    <constraint exp="" field="ogc_fid" desc=""/>
-    <constraint exp="" field="id" desc=""/>
-    <constraint exp="" field="distname" desc=""/>
-    <constraint exp="" field="roadnumber" desc=""/>
-    <constraint exp="" field="classifica" desc=""/>
-    <constraint exp="" field="drawlevel" desc=""/>
-    <constraint exp="" field="override" desc=""/>
-    <constraint exp="" field="featcode" desc=""/>
+    <constraint field="ogc_fid" desc="" exp=""/>
+    <constraint field="id" desc="" exp=""/>
+    <constraint field="distname" desc="" exp=""/>
+    <constraint field="roadnumber" desc="" exp=""/>
+    <constraint field="classifica" desc="" exp=""/>
+    <constraint field="drawlevel" desc="" exp=""/>
+    <constraint field="override" desc="" exp=""/>
+    <constraint field="featcode" desc="" exp=""/>
   </constraintExpressions>
   <attributeactions>
-    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
+    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
   </attributeactions>
-  <attributetableconfig sortOrder="0" actionWidgetStyle="dropDown" sortExpression="">
+  <attributetableconfig sortExpression="" actionWidgetStyle="dropDown" sortOrder="0">
     <columns>
       <column type="actions" width="-1" hidden="1"/>
-      <column type="field" width="-1" hidden="0" name="ogc_fid"/>
-      <column type="field" width="-1" hidden="0" name="id"/>
-      <column type="field" width="-1" hidden="0" name="distname"/>
-      <column type="field" width="-1" hidden="0" name="roadnumber"/>
-      <column type="field" width="-1" hidden="0" name="classifica"/>
-      <column type="field" width="-1" hidden="0" name="drawlevel"/>
-      <column type="field" width="-1" hidden="0" name="override"/>
-      <column type="field" width="-1" hidden="0" name="featcode"/>
+      <column type="field" width="-1" name="ogc_fid" hidden="0"/>
+      <column type="field" width="-1" name="id" hidden="0"/>
+      <column type="field" width="-1" name="distname" hidden="0"/>
+      <column type="field" width="-1" name="roadnumber" hidden="0"/>
+      <column type="field" width="-1" name="classifica" hidden="0"/>
+      <column type="field" width="-1" name="drawlevel" hidden="0"/>
+      <column type="field" width="-1" name="override" hidden="0"/>
+      <column type="field" width="-1" name="featcode" hidden="0"/>
     </columns>
   </attributetableconfig>
   <editform>C:/Program Files/QGIS 3.2/bin</editform>
@@ -605,24 +702,24 @@ def my_form_open(dialog, layer, feature):
   <featformsuppress>0</featformsuppress>
   <editorlayout>generatedlayout</editorlayout>
   <editable>
-    <field editable="1" name="classifica"/>
-    <field editable="1" name="distname"/>
-    <field editable="1" name="drawlevel"/>
-    <field editable="1" name="featcode"/>
-    <field editable="1" name="id"/>
-    <field editable="1" name="ogc_fid"/>
-    <field editable="1" name="override"/>
-    <field editable="1" name="roadnumber"/>
+    <field name="classifica" editable="1"/>
+    <field name="distname" editable="1"/>
+    <field name="drawlevel" editable="1"/>
+    <field name="featcode" editable="1"/>
+    <field name="id" editable="1"/>
+    <field name="ogc_fid" editable="1"/>
+    <field name="override" editable="1"/>
+    <field name="roadnumber" editable="1"/>
   </editable>
   <labelOnTop>
-    <field labelOnTop="0" name="classifica"/>
-    <field labelOnTop="0" name="distname"/>
-    <field labelOnTop="0" name="drawlevel"/>
-    <field labelOnTop="0" name="featcode"/>
-    <field labelOnTop="0" name="id"/>
-    <field labelOnTop="0" name="ogc_fid"/>
-    <field labelOnTop="0" name="override"/>
-    <field labelOnTop="0" name="roadnumber"/>
+    <field name="classifica" labelOnTop="0"/>
+    <field name="distname" labelOnTop="0"/>
+    <field name="drawlevel" labelOnTop="0"/>
+    <field name="featcode" labelOnTop="0"/>
+    <field name="id" labelOnTop="0"/>
+    <field name="ogc_fid" labelOnTop="0"/>
+    <field name="override" labelOnTop="0"/>
+    <field name="roadnumber" labelOnTop="0"/>
   </labelOnTop>
   <widgets/>
   <conditionalstyles>
