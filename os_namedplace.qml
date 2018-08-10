@@ -36,11 +36,11 @@
     <sizescale/>
   </renderer-v2>
   <labeling type="rule-based">
-    <rules key="{8ea10469-7a23-4b65-8069-d3dcf47da1c3}">
-      <rule scalemaxdenom="2000000" description="cities Large" filter=" &quot;classifica&quot;  =  'Populated Place' and  &quot;fontheight&quot;  =  'Large' " key="{8894e312-af9f-4050-902e-a041b464d896}" scalemindenom="100000">
+    <rules key="{3a7780c1-639c-4314-af5d-9bb547abf33b}">
+      <rule scalemaxdenom="2000000" description="cities Large" filter=" &quot;classifica&quot;  =  'Populated Place' and  &quot;fontheight&quot;  =  'Large' " key="{00857386-73ce-4225-8ab5-68ad6aa65ab7}" scalemindenom="100000">
         <settings>
           <text-style fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" namedStyle="Regular" fontUnderline="0" useSubstitutions="0" multilineHeight="1" fieldName="distname" previewBkgrdColor="#ffffff" textColor="115,115,115,255" textOpacity="1" fontSizeUnit="Pixel" fontFamily="Arial" fontSize="50" fontItalic="0" fontCapitals="0" blendMode="0" isExpression="0" fontWordSpacing="0" fontWeight="50">
-            <text-buffer bufferBlendMode="0" bufferSize="5" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128" bufferDraw="1" bufferSizeUnits="MapUnit" bufferNoFill="0" bufferColor="255,255,255,255" bufferOpacity="1"/>
+            <text-buffer bufferBlendMode="0" bufferSize="3" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128" bufferDraw="1" bufferSizeUnits="Point" bufferNoFill="0" bufferColor="255,255,255,255" bufferOpacity="0.8"/>
             <background shapeSizeUnit="MM" shapeSizeType="0" shapeFillColor="255,255,255,255" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeJoinStyle="64" shapeOffsetUnit="MM" shapeDraw="0" shapeRadiiUnit="MM" shapeOffsetX="0" shapeRotation="0" shapeSizeY="0" shapeSVGFile="" shapeRotationType="0" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeOpacity="1" shapeBlendMode="0" shapeBorderWidthUnit="MM" shapeOffsetY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0"/>
             <shadow shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadius="1.5" shadowOpacity="0.7" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowDraw="0" shadowOffsetDist="1" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowUnder="0"/>
             <substitutions/>
@@ -78,10 +78,10 @@
           </dd_properties>
         </settings>
       </rule>
-      <rule scalemaxdenom="65000" description="cities Medium" filter=" &quot;classifica&quot;  =  'Populated Place' and  &quot;fontheight&quot;  =  'Medium'" key="{4952f02c-3b02-4084-8125-8a52cbbf7862}" scalemindenom="28349">
+      <rule scalemaxdenom="65000" description="cities Medium" filter=" &quot;classifica&quot;  =  'Populated Place' and  &quot;fontheight&quot;  =  'Medium'" key="{45b904da-7a1a-4664-9b08-c2a4d38c06e1}" scalemindenom="28349">
         <settings>
           <text-style fontLetterSpacing="0" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontStrikeout="0" namedStyle="Regular" fontUnderline="0" useSubstitutions="0" multilineHeight="1" fieldName="distname" previewBkgrdColor="#ffffff" textColor="87,87,87,255" textOpacity="1" fontSizeUnit="Pixel" fontFamily="Arial" fontSize="50" fontItalic="0" fontCapitals="0" blendMode="0" isExpression="0" fontWordSpacing="0" fontWeight="50">
-            <text-buffer bufferBlendMode="0" bufferSize="5" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128" bufferDraw="1" bufferSizeUnits="MapUnit" bufferNoFill="0" bufferColor="255,255,255,255" bufferOpacity="1"/>
+            <text-buffer bufferBlendMode="0" bufferSize="3" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferJoinStyle="128" bufferDraw="1" bufferSizeUnits="Point" bufferNoFill="0" bufferColor="255,255,255,255" bufferOpacity="0.8"/>
             <background shapeSizeUnit="MM" shapeSizeType="0" shapeFillColor="255,255,255,255" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidth="0" shapeJoinStyle="64" shapeOffsetUnit="MM" shapeDraw="0" shapeRadiiUnit="MM" shapeOffsetX="0" shapeRotation="0" shapeSizeY="0" shapeSVGFile="" shapeRotationType="0" shapeType="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeSizeX="0" shapeOpacity="1" shapeBlendMode="0" shapeBorderWidthUnit="MM" shapeOffsetY="0" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeBorderColor="128,128,128,255" shapeRadiiY="0" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiX="0"/>
             <shadow shadowOffsetUnit="MM" shadowOffsetMapUnitScale="3x:0,0,0,0,0,0" shadowScale="100" shadowRadius="1.5" shadowOpacity="0.7" shadowOffsetGlobal="1" shadowColor="0,0,0,255" shadowDraw="0" shadowOffsetDist="1" shadowRadiusUnit="MM" shadowBlendMode="6" shadowOffsetAngle="135" shadowRadiusMapUnitScale="3x:0,0,0,0,0,0" shadowRadiusAlphaOnly="0" shadowUnder="0"/>
             <substitutions/>
