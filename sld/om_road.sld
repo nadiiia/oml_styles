@@ -17,7 +17,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#06b1ca</se:SvgParameter>
@@ -39,7 +39,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#06b1ca</se:SvgParameter>
@@ -61,7 +61,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#37c35b</se:SvgParameter>
@@ -83,7 +83,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#37c35b</se:SvgParameter>
@@ -439,7 +439,7 @@
             </ogc:Or>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>roadnumber</ogc:PropertyName>
@@ -484,7 +484,7 @@
             </ogc:Or>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:TextSymbolizer>
             <se:Label>
               <ogc:PropertyName>roadnumber</ogc:PropertyName>

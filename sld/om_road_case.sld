@@ -17,7 +17,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#737373</se:SvgParameter>
@@ -39,7 +39,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#737373</se:SvgParameter>
@@ -61,7 +61,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#737373</se:SvgParameter>
@@ -83,7 +83,7 @@
             </ogc:PropertyIsEqualTo>
           </ogc:Filter>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>4000000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#737373</se:SvgParameter>
@@ -357,7 +357,7 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">40</se:SvgParameter>
+              <se:SvgParameter name="font-size">8</se:SvgParameter>
               <se:SvgParameter name="font-weight">bold</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
@@ -402,7 +402,7 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">40</se:SvgParameter>
+              <se:SvgParameter name="font-size">8</se:SvgParameter>
               <se:SvgParameter name="font-weight">bold</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
@@ -447,7 +447,7 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">40</se:SvgParameter>
+              <se:SvgParameter name="font-size">8</se:SvgParameter>
               <se:SvgParameter name="font-weight">bold</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
@@ -492,7 +492,7 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">15</se:SvgParameter>
+              <se:SvgParameter name="font-size">8</se:SvgParameter>
               <se:SvgParameter name="font-weight">bold</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
@@ -516,6 +516,7 @@
             <se:VendorOption name="group">yes</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
+        <!--
         <se:Rule>
           <ogc:Filter xmlns:ogc="http://www.opengis.net/ogc">
             <ogc:Or>
@@ -559,7 +560,7 @@
             </se:Label>
             <se:Font>
               <se:SvgParameter name="font-family">Arial</se:SvgParameter>
-              <se:SvgParameter name="font-size">15</se:SvgParameter>
+              <se:SvgParameter name="font-size">6</se:SvgParameter>
               <se:SvgParameter name="font-weight">bold</se:SvgParameter>
             </se:Font>
             <se:LabelPlacement>
@@ -575,7 +576,7 @@
               </se:Fill>
             </se:Halo>
             <se:Fill>
-              <se:SvgParameter name="fill">#000000</se:SvgParameter>
+              <se:SvgParameter name="fill">#323232</se:SvgParameter>
             </se:Fill>
             <se:Priority>800</se:Priority>
             <se:VendorOption name="followLine">true</se:VendorOption>
@@ -583,6 +584,7 @@
             <se:VendorOption name="group">yes</se:VendorOption>
           </se:TextSymbolizer>
         </se:Rule>
+-->
       </se:FeatureTypeStyle>
     </UserStyle>
   </NamedLayer>

@@ -8,7 +8,7 @@
         <se:Rule>
           <se:Name></se:Name>
           <se:MinScaleDenominator>28350</se:MinScaleDenominator>
-          <se:MaxScaleDenominator>100000000</se:MaxScaleDenominator>
+          <se:MaxScaleDenominator>1500000</se:MaxScaleDenominator>
           <se:LineSymbolizer>
             <se:Stroke>
               <se:SvgParameter name="stroke">#646464</se:SvgParameter>
